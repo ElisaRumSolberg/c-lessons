@@ -1,0 +1,77 @@
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio Code specific files
+.vscode/
+.code-workspace
+
+# User-specific files
+.rsuser
+.suo
+.user
+.userosscache
+.sln.docstates
+
+# Auto-generated files
+.sln.ide
+.pidb
+.pdb
+.opendb
+.swp
+.log
+.svclog
+.tss
+.ilk
+.cache
+.csproj.FileListAbsolute.txt
+.csproj.user
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Program databases
+.pdb
+
+# File system paging file
+pagefile.sys
+
+# Memory dump files
+.dmp
+
+# Lock file used by VS Code
+.vscode/settings.json
+
+# Rider project settings
+.idea/
+
+# Resharper folder
+.ReSharper/
+_ReSharper*/
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+
+# JetBrains Rider
+.idea/
+.sln.iml
+
+# IIS
+.publish/
+
+# Visual Studio temp data
+.vs/
+
