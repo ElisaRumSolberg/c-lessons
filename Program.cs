@@ -1,13 +1,13 @@
-﻿using System.Reflection.Metadata.Ecma335;
-using System.Runtime.InteropServices;
+﻿using System;
 
 namespace lesson1;
 
 class Program
 {
-    static void Main(string[] args)
+     static void Main()
     {
-        /*
+
+ /*
         Console.WriteLine("Hello, World!");
 
         Console.WriteLine("hei verden!");
@@ -56,16 +56,71 @@ var alder=Console.ReadLine();
 
 //2. method
 // dolar isaterinden sonra cift tirnak acip degiskenleri {} icine yazip digerlerini normal yaziyoruz
-string melding= $"{name} {ettername} er{alder} år gammel";
+string melding= $"{name} {ettername} er {alder} år gammel";
 
 
 Console.WriteLine(melding);
+ 
+ //var resultat = melding.Length;
 
+ //var resultat= melding.ToLower();
 
+ // var resultat = melding.ToUpper();
 
+ // var resultat = melding.Trim();
+
+ //var resultat = melding.Split("") [2];
+ // "" icine neden bolecegimizi yazariz burada 
+ // bosluk ile yaptik istersek , ilede yapariz
+ //Split string i diziye donduruyor
+
+ // var resultat = melding[3];
+
+ // var resultat = melding.StartsWith("E");
+ // bu string in ne ile basladigini kontrol eder 
+ // sonuc true false olur
+
+ //var resultat = melding.EndsWith(".");
+
+ //var resultat = melding.Contains("El");
+ // char ve string gonderebiliriz sonuc true false
+ //bu sayede arama yapabiliyourz
+
+//var resultat = melding.IndexOf("Elisa");
+
+// yok ise -1 var ise nedere ise onu verir
+
+// var resultat = melding.Substring(10);
+
+// indexden itibaren yazarlar
+
+ //Console.WriteLine(resultat);
+
+ /*
+ String kurs= "C# lessons with KodeHode";
+
+var numberOfCharacters=kurs.Length;
+System.Console.WriteLine(numberOfCharacters);
+
+var loverCase=kurs.ToLower();
+System.Console.WriteLine(loverCase);
+
+var point = kurs.StartsWith('.');
+System.Console.WriteLine(" The string starts with '.'  :" + point);
+
+var location = kurs.IndexOf("C#") ;
+System.Console.WriteLine("location is : " + location);
+
+var doesItContain = kurs.Contains("C#");
+System.Console.WriteLine("Does it contein C# : " + doesItContain);
+
+var updatedString = kurs.Replace("KodeHode","JobLoop");
+System.Console.WriteLine(updatedString);
+ */
 
     }
 }
+
 
     
 

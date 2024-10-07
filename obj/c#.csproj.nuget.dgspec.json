@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elisa\\c#\\c#.csproj": {}
+    "C:\\Users\\elisa\\c#lesson\\c#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elisa\\c#\\c#.csproj": {
+    "C:\\Users\\elisa\\c#lesson\\c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elisa\\c#\\c#.csproj",
+        "projectUniqueName": "C:\\Users\\elisa\\c#lesson\\c#.csproj",
         "projectName": "c#",
-        "projectPath": "C:\\Users\\elisa\\c#\\c#.csproj",
+        "projectPath": "C:\\Users\\elisa\\c#lesson\\c#.csproj",
         "packagesPath": "C:\\Users\\elisa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elisa\\c#\\obj\\",
+        "outputPath": "C:\\Users\\elisa\\c#lesson\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
