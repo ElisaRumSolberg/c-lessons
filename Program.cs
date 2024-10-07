@@ -118,6 +118,30 @@ var updatedString = kurs.Replace("KodeHode","JobLoop");
 System.Console.WriteLine(updatedString);
  */
 
+
+ // DateTime//
+
+DateTime nå = DateTime.Now;
+System.Console.WriteLine(nå);
+System.Console.WriteLine(nå.Year);
+System.Console.WriteLine(nå.Month);
+System.Console.WriteLine(nå.Day);
+System.Console.WriteLine(nå.DayOfWeek);
+
+DateTime dt= new DateTime(2016,4,21);
+System.Console.WriteLine(dt.Year);
+
+DateTime dt2 =dt.AddYears(1);
+System.Console.WriteLine(dt2);
+
+var forksj = nå-dt;
+System.Console.WriteLine(forksj.TotalDays);
+System.Console.WriteLine(forksj.TotalHours);
+
+// ARRAY
+
+String [] names = new String[5];
+
     }
 }
 
